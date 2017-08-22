@@ -1,0 +1,16 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="crudoperations-product.CRUD" xmlns:html="http://www.w3.org/1999/xhtml">
+	
+		<SplitApp>
+		<masterPages>
+		<mvc:XMLView viewName="crudoperations-product.masterpage"/>
+		
+		</masterPages>
+		<detailPages>
+		<mvc:XMLView viewName="crudoperations-product.detailpage" id="detailview"/>
+		</detailPages>
+		
+		</SplitApp>
+		
+	
+</core:View>
